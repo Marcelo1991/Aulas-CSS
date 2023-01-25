@@ -1,10 +1,17 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Source+Sans+Pro:wght@200;300;400&display=swap');
+/* Components */
 @import './header.css';
 
+/* Reset CSS */
 * {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  text-decoration: none;
 }
